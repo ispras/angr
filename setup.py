@@ -160,7 +160,7 @@ setup(
         'pycparser>=2.18',
         'itanium_demangler',
         'CppHeaderParser',
-        'protobuf>=3.12.0',
+        'protobuf~=3.12',
         'nampa',
     ],
     setup_requires=[_UNICORN, 'pyvex'],
