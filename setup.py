@@ -163,7 +163,7 @@ setup(
         'protobuf~=3.12',
         'nampa',
     ],
-    setup_requires=[_UNICORN, 'pyvex'],
+    setup_requires=[_UNICORN, 'pyvex==9.0.10651'],
     extras_require={
         'AngrDB': ['sqlalchemy'],
         'pcode': ['pypcode==1.0.2'],
