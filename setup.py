@@ -142,7 +142,7 @@ setup(
     install_requires=[
         'sortedcontainers',
         'cachetools',
-        'capstone>=3.0.5rc2',
+        'capstone==5.0.3',
         'dpkt',
         'mulpyplexer',
         'networkx>=2.0',
